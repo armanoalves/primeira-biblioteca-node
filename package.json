@@ -1,24 +1,29 @@
 {
-  "name": "2708-node-lib-md",
+  "name": "http-validator",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Conjunto de códigos responsáveis por retirar de um determiado texto link com formatação markdown, após isso é realizado a alocação dos links em uma lista de objetos que contará também com a autenticação dos links.",
+  "main": "./cli.js",
+  "bin": {
+    "<nome-da-lib>": "./cli.js"
+  },
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1", 
-    "cli": "node ./src/cli.js ./arquivos/texto.md"
+    "cli": "node ./src/cli.js"
   },
+  "preferGlobal": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alura-cursos/2708-node-lib-md.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["markdown", "URL"],
+  "author": "Armano Barros Alves Junior",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alura-cursos/2708-node-lib-md/issues"
+    "url": "https://github.com/armanoalves/primeira-biblioteca-node",
+    "email": "armanobarrosalvesh@gmail.com"
   },
-  "homepage": "https://github.com/alura-cursos/2708-node-lib-md#readme",
+  "homepage": "https://github.com/armanoalves/primeira-biblioteca-node",
   "dependencies": {
     "chalk": "5.0.1"
   }
