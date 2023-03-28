@@ -27,3 +27,13 @@
 - Como utilizamos classes e grupos de expressões regulares para refinar a busca por estes padrões, além dos métodos que o JavaScript tem (por exemplo `match` e `exec`) para trazer os resultados e trabalhar com eles;
 
 - Manipular os resultados extraídos do texto através de expressões regulares e montar um objeto de retorno utilizando a sintaxe do JavaScript e desestruturação de objetos com o spread operator (....).
+
+### Aula 04
+
+- A utilizar a interface de linha de comando e como aplicamos a lib `process` do Node.js para capturar e utilizar os dados informados no terminal em nosso código;
+
+- A organizar o código separando em arquivos as funções que lidam com entrada e saída de dados das funções que processam os links;
+
+- Como fazer estes diversos arquivos conversarem entre si através da exportação e importação de módulos com `import` e `export`;
+
+- Que scripts são instruções que usamos para automatizar tarefas e como escrever nossos próprios scripts, incluí-los no arquivo de configuração `package.json` e utilizá-los para executar comandos no terminal.
